@@ -1,0 +1,8 @@
+<div>
+    <img src="" alt="Imagen" *ngIf="hidden" [src]="src" #imagen>
+    <br/>
+    <br/>
+    <button (click)="cambiarImagen()">Cambiar Imagen</button>
+    <button (click)="cambiarImagen2()">Cambiar Imagen 2</button>
+    <button (click)="hidden = !hidden">Ocultar</button>
+</div>
